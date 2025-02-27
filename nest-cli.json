@@ -15,7 +15,6 @@
         "watchAssets": true
       }
     ],
-    "watchAssets": true,
-    "deleteOutDir": true
+    "watchAssets": true
   }
 }
