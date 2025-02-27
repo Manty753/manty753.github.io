@@ -11,8 +11,6 @@ export class DataService {
   private nextId = faker.string.uuid();
 
   findAll(): Customer[] {
-    console.log(users);
-
     return this.customers;
   }
 
