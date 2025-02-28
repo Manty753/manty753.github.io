@@ -3,7 +3,7 @@ import { Customer } from './interfaces/customer.interface';
 import { CreateCustomerDto } from './dto/create-customer.dto';
 import { UpdateCustomerDto } from './dto/update-customer.dto';
 import { faker } from '@faker-js/faker';
-import { users } from 'src/utils/faker';
+import { users } from '../utils/faker';
 
 @Injectable()
 export class DataService {
